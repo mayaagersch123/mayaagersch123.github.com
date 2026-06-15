@@ -10,7 +10,7 @@ Margin: auto;
   font-weight: 400;
   font-style: normal;
  }
-H1,H2 { color: pink;
+H1,H2 { color: black;
  font-family: "Edu NSW ACT Cursive", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -19,7 +19,7 @@ H1,H2 { color: pink;
 
 
 Td, th {
-  Padding: 5px;
+  Padding: 4px;
   
 }
 table, th, td {
