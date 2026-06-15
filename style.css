@@ -16,13 +16,6 @@ H1,H2 { color: black;
   font-weight: <weight>;
   font-style: normal;
 }
-<html>
-<head>
-<style>
-h1 {text-align: center;}
-p {text-align: center;}
-div {text-align: center;}
-</style>
 
 Td, th {
   Padding: 5px;
