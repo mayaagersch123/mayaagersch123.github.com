@@ -3,20 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-page-container {
-  display: flex;
-  gap: 20px; /* Adds space between text and the margin list */
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.main-content {
-  flex: 3; /* Takes up 75% of the width */
-}
-
-.sidebar-margin {
-  flex: 1; /* Takes up 25% of the width in the margin */
-}
 
 Body {   
   Max-width:600px;
