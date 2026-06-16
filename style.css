@@ -33,4 +33,8 @@ table {
   padding: 0;
 }
 
+iframe { display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
 
