@@ -27,23 +27,23 @@ table, th, td {
 table {
   border-collapse: collapse;
 }
-.fully-centered-list {
+fully-centered-list {
   text-align: center;
   list-style-position: inside; 
   padding: 0;
 }
 
-image-container {
-  display: flex;       
-  justify-content: center; 
-  gap: 10px;           
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
 }
-
-.side-by-side {
-  max-width: 100%;     
-  height: auto;
+side-by-side {
+  display: inline-block; 
+  vertical-align: top;   
+  width: 45%;           
+  margin: 0 auto;
 }
-
 
 iframe {display: block;
   margin-left: auto;
