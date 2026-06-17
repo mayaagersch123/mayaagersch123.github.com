@@ -33,15 +33,22 @@ fully-centered-list {
   padding: 0;
 }
 
-image-container {
-  display: flex;       
-  justify-content: center; 
-  gap: 10px;           
+side-by-side {
+  display: inline-block; 
+  vertical-align: top;   
+  width: 45%;           
+  margin: 0 auto;
 }
 
-.side-by-side {
-  max-width: 100%;     
-  height: auto;
+
+img.side-by-side {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;  
+  margin: 0;     
+
+.image-container {
+  text-align: center;
 }
 
 iframe {display: block;
