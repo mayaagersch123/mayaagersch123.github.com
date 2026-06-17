@@ -33,10 +33,10 @@ table {
   padding: 0;
 }
 
-img.side-image {
-  display: inline-block !important; 
-  width: 45p%; 
-  margin: 0 2% !important;          
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 iframe {display: block;
