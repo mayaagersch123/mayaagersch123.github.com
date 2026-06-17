@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+US+Trad+Guides&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+Body {   
+  Max-width:600px;
+Margin: auto;
+ font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+H1,H2,H3 { color: black;
+ font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+Td, th {
+  Padding: 5px;
+  
+}
+table, th, td {
+  border: 1px solid grey;
+}
+table {
+  border-collapse: collapse;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+iframe {display: block;
+  margin-left: auto;
+  margin-right: auto;}
