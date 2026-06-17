@@ -29,15 +29,21 @@ table {
 }
 .fully-centered-list {
   text-align: center;
-  list-style-position: inside; /* Keeps bullets attached directly to the centered text */
+  list-style-position: inside; 
   padding: 0;
 }
 
-img {
-  display: block;
-  margin: auto;
-  width: 50%;
+image-container {
+  display: flex;       
+  justify-content: center; 
+  gap: 10px;           
 }
+
+.side-by-side {
+  max-width: 100%;     
+  height: auto;
+}
+
 
 iframe {display: block;
   margin-left: auto;
